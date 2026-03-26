@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "bad_bucket" {
   acl    = "public-read"
 }
 
-# ❌ Security group open to the world
+# ❌ Security group open to the world test
 resource "aws_security_group" "bad_sg" {
   name        = "allow_all"
   description = "Allow all inbound traffic"
