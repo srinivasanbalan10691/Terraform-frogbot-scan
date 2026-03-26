@@ -12,7 +12,7 @@
 name: "Frogbot Scan and Fix"
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "Terraform-latest" ]
 permissions:
   contents: write
   pull-requests: write
